@@ -1,0 +1,71 @@
+h1 {
+	font-size: 9em;
+	margin: 0;
+	font-weight: 100;
+}
+
+#swag {
+	font-size: 3em;
+	color: #757B8A;
+}
+
+#sloth {
+	width: 100%;
+}
+
+.link{
+	display: inline-block;
+	color: inherit;
+	font-size: 3em;
+	text-decoration: none;
+	color:#1B8EE0;
+	margin-right: 0.70em;
+}
+
+#links {
+	font-family:"Oxygen";
+	margin-top:12em;
+}
+
+span, a.link {
+	visibility:hidden;
+}
+
+body{
+	font-family: "Anaheim", sans-serif;
+	font-size:62.5%;
+	display: table;
+	margin: 0;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+#fluid {
+	overflow: hidden;
+	text-align: right;
+	display: table-cell;
+	vertical-align: bottom;
+}
+
+#fixed-width {
+	display: table-cell;
+	padding-left: 15px;
+	width: 700px;
+	min-width: 700px;
+}
+
+@media screen and (max-width: 1000px) {
+	#sloth {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 1600px) {
+	#sloth {
+		max-height: 1000px;
+		width: auto;
+	}
+}
