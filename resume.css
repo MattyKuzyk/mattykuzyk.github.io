@@ -62,8 +62,14 @@ ul{
   margin-right:0px;
   color:#3D85C6;
 }
+.jobTitle:after {
+  content: '-';
+  margin: 0 10px;
+  font-weight: bold;
+}
 .jobTitle {
   font-size: 1.2em;
+  display: inline-block;
   /*font-weight:bold;*/
   /*font-variant: small-caps;*/
   /*color:#3D85C6;*/
@@ -73,8 +79,9 @@ ul{
 }
 
 .workPlace {
-  font-size: 0.9em;
-  font-style: italic;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
   color:#3D85C6;
 }
 .section li {
