@@ -62,7 +62,7 @@ ul{
   margin-right:0px;
   color:#3D85C6;
 }
-.jobTitle:after {
+.experience .jobTitle:after {
   content: '-';
   margin: 0 10px;
   font-weight: bold;
