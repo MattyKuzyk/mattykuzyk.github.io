@@ -68,7 +68,7 @@ ul{
   font-weight: bold;
 }
 .jobTitle {
-  font-size: 1.2em;
+  font-size: 19px;
   display: inline-block;
   /*font-weight:bold;*/
   /*font-variant: small-caps;*/
@@ -80,7 +80,7 @@ ul{
 
 .workPlace {
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 19px;
   font-weight: bold;
   color:#3D85C6;
 }
@@ -95,4 +95,31 @@ ul{
 .date {
   float:right;
   font-size:0.8em;
+}
+
+@media only screen 
+  and (min-device-width: 300px) 
+  and (max-device-width: 700px) {
+    #info li {
+      font-size: 6px;
+    }
+    .sub {
+      font-size: 7px;
+      line-height: 9px;
+    }
+    .sub li strong {
+      font-size: 7px;
+      line-height: 9px;
+    }
+    .workPlace {
+      font-size: 8px;
+    }
+
+    h3 {
+      font-size: 17px;
+    }
+
+    .section .sub li {
+      line-height: 10px;
+    }
 }
