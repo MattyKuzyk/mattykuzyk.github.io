@@ -1,10 +1,5 @@
-var bio = new Array();
-var randomnumber=Math.floor(Math.random()*4);
 
-bio[0] = "Jack of all trades, master of some";
-bio[1] = 'div id="yolo" because #yolo';
-bio[2] = 'Not random, just psuedo-random';
-bio[3] = "Girls say I can't commit, they should see my git log";
+bio = "Girls say I can't commit, they should see my git log";
 /*
 bio[4] = "Blorange Enthusiast";
 bio[5] = "What's Gucci?"
@@ -18,7 +13,7 @@ $(document).ready(function(){
 
 //GEE THIS ISN'T HACKY AT ALL
 
-	$('#swag').text(bio[randomnumber]);
+	$('#swag').text(bio);
 
 	setTimeout(function(){
 
