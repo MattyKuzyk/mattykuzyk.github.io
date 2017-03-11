@@ -1,5 +1,5 @@
 
-bio = "Girls say I can't commit, they should see my git log";
+bio = "i lern me a gud. am smort.";
 /*
 bio[4] = "Blorange Enthusiast";
 bio[5] = "What's Gucci?"
